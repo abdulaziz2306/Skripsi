@@ -49,7 +49,7 @@ while True:
                    cv.FONT_HERSHEY_DUPLEX, 0.3, color, 1)
 
   # print("Jumlah Orang: ", count_1)
-  #  print("Jumlah Kursi: ", count_2)
+  # print("Jumlah Kursi: ", count_2)
 
 
     endingTime = time.time() - starting_time
