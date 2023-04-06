@@ -18,7 +18,7 @@ net.setPreferableTarget(cv.dnn.DNN_TARGET_CUDA_FP16)
 model = cv.dnn_DetectionModel(net)
 model.setInputParams(size=(416, 416), scale=1/255, swapRB=True)
 
-cap = cv.VideoCapture(0)
+cap = cv.VideoCapture('10.211.125.216:8080')
 
 starting_time = time.time()
 frame_counter = 0
@@ -56,7 +56,7 @@ while True:
 
     endingTime = time.time() - starting_time
     fps = frame_counter/endingTime
-    # print(fps)
+    print(fps)
     cv.putText(frame, f'Jumlah Objek: {count_1}', (20, 50),
                cv.FONT_HERSHEY_COMPLEX, 0.5, (255, 255, 0), 2)
     
