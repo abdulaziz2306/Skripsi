@@ -6,7 +6,7 @@ Conf_threshold = 0.4
 NMS_threshold = 0.4
 COLORS = [(255, 255, 255), (0, 234, 255), (255, 255, 0),
           (255, 255, 0), (255, 0, 255), (0, 0, 255)]
-
+ 
 class_name = []
 with open('classes.txt', 'r') as f:
     class_name = [cname.strip() for cname in f.readlines()]
