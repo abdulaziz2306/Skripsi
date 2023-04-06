@@ -1,6 +1,4 @@
 import cv2 as cv
-import pywhatkit
-import pyautogui
 import time
 Conf_threshold = 0.4
 NMS_threshold = 0.4
